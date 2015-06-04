@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00869FCFA2C1B14850CCA469 /* Pods-WZProtocolInterceptor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E4AF47108785A91ABF792C /* Pods-WZProtocolInterceptor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1078853BFE3D9254ACED9E80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7597CA7315F260200E3B5F /* Foundation.framework */; };
+		2E6818809FFD4B6230D2F317 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F108DDDFCF26CF77A652856 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-dummy.m */; };
+		65BDEE7076BDD45CF7EF6939 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7597CA7315F260200E3B5F /* Foundation.framework */; };
+		6A2B4C74DA47301B7B2373DE /* WZProtocolInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 90ED0144AC3C4335CA047EBF /* WZProtocolInterceptor.m */; };
+		783A6C17AF2FF893F19A91D1 /* WZProtocolInterceptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 293CDABB0AD2FBA7A0FF421C /* WZProtocolInterceptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96E3541924D03B9EF5A638C5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A837B5743A59BF5939033001 /* ReplaceMe.m */; };
+		9C247A826A1C06A28DAEFD6D /* Pods-WZProtocolInterceptor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 080961B00A7B949B1CB0FFDC /* Pods-WZProtocolInterceptor_Tests-dummy.m */; };
+		A636181FB0E007D6A6EC2BE2 /* WZProtocolInterceptor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BDE526DF4D9A9620749018C1 /* WZProtocolInterceptor.bundle */; };
+		DFF61AB0164295DD067B18E4 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE7D51EF152B9FA7C8AF2B75 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03510791E840ACD6D962036A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B501545FC75EFA2D6E4B673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FB5390E3752D23F7DE151D3;
+			remoteInfo = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-WZProtocolInterceptor";
+		};
+		7F5F49C5CCD94F578FBEC706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B501545FC75EFA2D6E4B673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF70F03A85EBBE379E3463E8;
+			remoteInfo = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CAF2C4377B577C324DC662 /* Pods-WZProtocolInterceptor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZProtocolInterceptor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		080961B00A7B949B1CB0FFDC /* Pods-WZProtocolInterceptor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZProtocolInterceptor_Tests-dummy.m"; sourceTree = "<group>"; };
+		0F108DDDFCF26CF77A652856 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-dummy.m"; sourceTree = "<group>"; };
+		22D43A43A0ED39B30F38E1D2 /* Pods-WZProtocolInterceptor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZProtocolInterceptor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		231DA0B8CF5641CB9646D105 /* Pods-WZProtocolInterceptor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZProtocolInterceptor_Tests-resources.sh"; sourceTree = "<group>"; };
+		293CDABB0AD2FBA7A0FF421C /* WZProtocolInterceptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WZProtocolInterceptor.h; sourceTree = "<group>"; };
+		29D1F285F6EE8268C68F47A3 /* Pods_WZProtocolInterceptor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WZProtocolInterceptor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B69A26CB47B2E68AB77D437 /* Pods-WZProtocolInterceptor_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZProtocolInterceptor_Tests-environment.h"; sourceTree = "<group>"; };
+		38352C1A8B6A7CCDC049C843 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB0034D62366A54DDDEA9DE /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-Private.xcconfig"; sourceTree = "<group>"; };
+		4BC21BBA5A102821461D834F /* Pods-WZProtocolInterceptor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZProtocolInterceptor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		54242914DFE8AEE0615F6693 /* Pods-WZProtocolInterceptor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WZProtocolInterceptor_Tests.modulemap"; sourceTree = "<group>"; };
+		90ED0144AC3C4335CA047EBF /* WZProtocolInterceptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WZProtocolInterceptor.m; sourceTree = "<group>"; };
+		9949FD9F7D547FEEFA1226EE /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-prefix.pch"; sourceTree = "<group>"; };
+		9D7597CA7315F260200E3B5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9DAA2C8A98D2E7039C5CA4E0 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor.xcconfig"; sourceTree = "<group>"; };
+		A129B71A3020955AB2FC4A09 /* Pods-WZProtocolInterceptor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZProtocolInterceptor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A15B031EE0528A0EE67A0F1E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A837B5743A59BF5939033001 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		A873539815C43C5A433E2F49 /* Pods-WZProtocolInterceptor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZProtocolInterceptor_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BDE526DF4D9A9620749018C1 /* WZProtocolInterceptor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZProtocolInterceptor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA50E86E449AB565AC1FF1FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C79303F8730A7E9F89CC24 /* WZProtocolInterceptor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WZProtocolInterceptor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E4AF47108785A91ABF792C /* Pods-WZProtocolInterceptor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZProtocolInterceptor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FE7D51EF152B9FA7C8AF2B75 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-umbrella.h"; sourceTree = "<group>"; };
+		FF8B310FC714B3F9405F68FC /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		758CB4838FCFB5BCC337A32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD64D8813E81669A837AFF78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65BDEE7076BDD45CF7EF6939 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0290FB17408D086B12AC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1078853BFE3D9254ACED9E80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB22DCA281A89A13F7EC76A = {
+			isa = PBXGroup;
+			children = (
+				A15B031EE0528A0EE67A0F1E /* Podfile */,
+				8B63F57F0809F729EEBD4358 /* Development Pods */,
+				FFA81021A95485BBDFE9C727 /* Frameworks */,
+				D546DB983F20EAB10FE2816A /* Products */,
+				0E89297B243867CB27C3206E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		0E89297B243867CB27C3206E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ADA2CF760F5E499801F84BD /* Pods-WZProtocolInterceptor_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C61C86E26BE73DA539A15DC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A837B5743A59BF5939033001 /* ReplaceMe.m */,
+				293CDABB0AD2FBA7A0FF421C /* WZProtocolInterceptor.h */,
+				90ED0144AC3C4335CA047EBF /* WZProtocolInterceptor.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8ADA2CF760F5E499801F84BD /* Pods-WZProtocolInterceptor_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				38352C1A8B6A7CCDC049C843 /* Info.plist */,
+				54242914DFE8AEE0615F6693 /* Pods-WZProtocolInterceptor_Tests.modulemap */,
+				22D43A43A0ED39B30F38E1D2 /* Pods-WZProtocolInterceptor_Tests-acknowledgements.markdown */,
+				4BC21BBA5A102821461D834F /* Pods-WZProtocolInterceptor_Tests-acknowledgements.plist */,
+				080961B00A7B949B1CB0FFDC /* Pods-WZProtocolInterceptor_Tests-dummy.m */,
+				2B69A26CB47B2E68AB77D437 /* Pods-WZProtocolInterceptor_Tests-environment.h */,
+				A873539815C43C5A433E2F49 /* Pods-WZProtocolInterceptor_Tests-frameworks.sh */,
+				231DA0B8CF5641CB9646D105 /* Pods-WZProtocolInterceptor_Tests-resources.sh */,
+				F1E4AF47108785A91ABF792C /* Pods-WZProtocolInterceptor_Tests-umbrella.h */,
+				02CAF2C4377B577C324DC662 /* Pods-WZProtocolInterceptor_Tests.debug.xcconfig */,
+				A129B71A3020955AB2FC4A09 /* Pods-WZProtocolInterceptor_Tests.release.xcconfig */,
+			);
+			name = "Pods-WZProtocolInterceptor_Tests";
+			path = "Target Support Files/Pods-WZProtocolInterceptor_Tests";
+			sourceTree = "<group>";
+		};
+		8B63F57F0809F729EEBD4358 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E560238DD9FAD9422E620815 /* WZProtocolInterceptor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		921B031414919263F9DAAAFC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1C61C86E26BE73DA539A15DC /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D473E945F75580D8056EAB50 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA50E86E449AB565AC1FF1FA /* Info.plist */,
+				FF8B310FC714B3F9405F68FC /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor.modulemap */,
+				9DAA2C8A98D2E7039C5CA4E0 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor.xcconfig */,
+				3FB0034D62366A54DDDEA9DE /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-Private.xcconfig */,
+				0F108DDDFCF26CF77A652856 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-dummy.m */,
+				9949FD9F7D547FEEFA1226EE /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-prefix.pch */,
+				FE7D51EF152B9FA7C8AF2B75 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor";
+			sourceTree = "<group>";
+		};
+		D546DB983F20EAB10FE2816A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29D1F285F6EE8268C68F47A3 /* Pods_WZProtocolInterceptor_Tests.framework */,
+				BDE526DF4D9A9620749018C1 /* WZProtocolInterceptor.bundle */,
+				E4C79303F8730A7E9F89CC24 /* WZProtocolInterceptor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E560238DD9FAD9422E620815 /* WZProtocolInterceptor */ = {
+			isa = PBXGroup;
+			children = (
+				921B031414919263F9DAAAFC /* Pod */,
+				D473E945F75580D8056EAB50 /* Support Files */,
+			);
+			name = WZProtocolInterceptor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F0C396A77804F4C6E3E89BF7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9D7597CA7315F260200E3B5F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FFA81021A95485BBDFE9C727 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0C396A77804F4C6E3E89BF7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		377E52293DB8D8A7CFF14DB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00869FCFA2C1B14850CCA469 /* Pods-WZProtocolInterceptor_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5394C04A9EBAC053D389A18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF61AB0164295DD067B18E4 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-umbrella.h in Headers */,
+				783A6C17AF2FF893F19A91D1 /* WZProtocolInterceptor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FB5390E3752D23F7DE151D3 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-WZProtocolInterceptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E915AF7E5531C530DFD25CE7 /* Build configuration list for PBXNativeTarget "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-WZProtocolInterceptor" */;
+			buildPhases = (
+				F1FF1E809353CF9D03A2CCAF /* Sources */,
+				758CB4838FCFB5BCC337A32C /* Frameworks */,
+				A3ECD7EC07CA2B412652193B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-WZProtocolInterceptor";
+			productName = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-WZProtocolInterceptor";
+			productReference = BDE526DF4D9A9620749018C1 /* WZProtocolInterceptor.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		11A9473814074B2D40A9F70E /* Pods-WZProtocolInterceptor_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB431A63B3998C46190E577D /* Build configuration list for PBXNativeTarget "Pods-WZProtocolInterceptor_Tests" */;
+			buildPhases = (
+				306186DEDA5A9C35523BF897 /* Sources */,
+				BD64D8813E81669A837AFF78 /* Frameworks */,
+				377E52293DB8D8A7CFF14DB9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6465B3353C591B99A6A2C73 /* PBXTargetDependency */,
+			);
+			name = "Pods-WZProtocolInterceptor_Tests";
+			productName = "Pods-WZProtocolInterceptor_Tests";
+			productReference = 29D1F285F6EE8268C68F47A3 /* Pods_WZProtocolInterceptor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF70F03A85EBBE379E3463E8 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357ADCB925E6A48376442A55 /* Build configuration list for PBXNativeTarget "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor" */;
+			buildPhases = (
+				10C54AD3FC055B80C45DD46E /* Sources */,
+				CD0290FB17408D086B12AC43 /* Frameworks */,
+				F12B5A975DCA0DEEA43714DE /* Resources */,
+				C5394C04A9EBAC053D389A18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CDC986466315F0BB71F9655 /* PBXTargetDependency */,
+			);
+			name = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor";
+			productName = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor";
+			productReference = E4C79303F8730A7E9F89CC24 /* WZProtocolInterceptor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B501545FC75EFA2D6E4B673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 87173542DB00579E2C47FAAB /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DB22DCA281A89A13F7EC76A;
+			productRefGroup = D546DB983F20EAB10FE2816A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A9473814074B2D40A9F70E /* Pods-WZProtocolInterceptor_Tests */,
+				EF70F03A85EBBE379E3463E8 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor */,
+				0FB5390E3752D23F7DE151D3 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-WZProtocolInterceptor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3ECD7EC07CA2B412652193B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F12B5A975DCA0DEEA43714DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A636181FB0E007D6A6EC2BE2 /* WZProtocolInterceptor.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C54AD3FC055B80C45DD46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6818809FFD4B6230D2F317 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-dummy.m in Sources */,
+				96E3541924D03B9EF5A638C5 /* ReplaceMe.m in Sources */,
+				6A2B4C74DA47301B7B2373DE /* WZProtocolInterceptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306186DEDA5A9C35523BF897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C247A826A1C06A28DAEFD6D /* Pods-WZProtocolInterceptor_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1FF1E809353CF9D03A2CCAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CDC986466315F0BB71F9655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-WZProtocolInterceptor";
+			target = 0FB5390E3752D23F7DE151D3 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-WZProtocolInterceptor */;
+			targetProxy = 03510791E840ACD6D962036A /* PBXContainerItemProxy */;
+		};
+		F6465B3353C591B99A6A2C73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor";
+			target = EF70F03A85EBBE379E3463E8 /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor */;
+			targetProxy = 7F5F49C5CCD94F578FBEC706 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		173E8DC922196DDD9EDE82E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		19F4D5A96485CE0B56AA2EAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C26E379739BB19BE0866023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB0034D62366A54DDDEA9DE /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-WZProtocolInterceptor_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WZProtocolInterceptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		90A19233AE290F40F1743139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB0034D62366A54DDDEA9DE /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-WZProtocolInterceptor_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = WZProtocolInterceptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9EA1EABF5D1AB8DF38123820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB0034D62366A54DDDEA9DE /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor/Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor/Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WZProtocolInterceptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5534594929933669800C885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB0034D62366A54DDDEA9DE /* Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor/Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor/Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WZProtocolInterceptor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E558530C705314D19D0A9FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02CAF2C4377B577C324DC662 /* Pods-WZProtocolInterceptor_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WZProtocolInterceptor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WZProtocolInterceptor_Tests/Pods-WZProtocolInterceptor_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WZProtocolInterceptor_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF344CFC92F32B64B7D816D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A129B71A3020955AB2FC4A09 /* Pods-WZProtocolInterceptor_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WZProtocolInterceptor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WZProtocolInterceptor_Tests/Pods-WZProtocolInterceptor_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WZProtocolInterceptor_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		357ADCB925E6A48376442A55 /* Build configuration list for PBXNativeTarget "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA1EABF5D1AB8DF38123820 /* Debug */,
+				B5534594929933669800C885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87173542DB00579E2C47FAAB /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				173E8DC922196DDD9EDE82E8 /* Debug */,
+				19F4D5A96485CE0B56AA2EAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB431A63B3998C46190E577D /* Build configuration list for PBXNativeTarget "Pods-WZProtocolInterceptor_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E558530C705314D19D0A9FF1 /* Debug */,
+				FF344CFC92F32B64B7D816D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E915AF7E5531C530DFD25CE7 /* Build configuration list for PBXNativeTarget "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-WZProtocolInterceptor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90A19233AE290F40F1743139 /* Debug */,
+				2C26E379739BB19BE0866023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B501545FC75EFA2D6E4B673 /* Project object */;
+}

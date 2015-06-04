@@ -1,0 +1,6 @@
+framework module WZProtocolInterceptor {
+  umbrella header "Pods-WZProtocolInterceptor_Tests-WZProtocolInterceptor-umbrella.h"
+
+  export *
+  module * { export * }
+}

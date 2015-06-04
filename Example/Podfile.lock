@@ -1,0 +1,14 @@
+PODS:
+  - WZProtocolInterceptor (0.1.0)
+
+DEPENDENCIES:
+  - WZProtocolInterceptor (from `../`)
+
+EXTERNAL SOURCES:
+  WZProtocolInterceptor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WZProtocolInterceptor: 233a74550597c77f0e6ce1e50d434615c78cf4c6
+
+COCOAPODS: 0.37.2
