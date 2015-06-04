@@ -1,2 +1,3 @@
 *.m linguist-language=Objc
 *.h linguist-language=Objc
+Example/* linguist-vendored
