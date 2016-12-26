@@ -8,10 +8,16 @@
 I shamelessly copy the code from [SO](http://stackoverflow.com/questions/3498158/intercept-objective-c-delegate-messages-within-a-subclass).
 All credits and rights belong to WeZZard.
 
-## Usage
-
-see [SO](http://stackoverflow.com/questions/3498158/intercept-objective-c-delegate-messages-within-a-subclass).
-
+## Example
+To intercept the messages between dataSource and UICollectionView
+```objc
+    WZProtocolInterceptor* dataSourceInterceptor = [[WZProtocolInterceptor alloc]
+                                                    initWithInterceptedProtocol:@protocol(UICollectionViewDataSource)];
+    dataSourceInterceptor.middleMan = self;
+    dataSourceInterceptor.receiver = dataSource;
+    _dataSourceInterceptor = dataSourceInterceptor;
+    _collectionView.dataSource = (id<UICollectionViewDataSource>) dataSourceInterceptor;
+```
 ## Requirements
 
 ## Installation
